@@ -1,0 +1,480 @@
+*{   margin: 50;
+    padding: 0;
+
+}
+
+.header{
+
+    height: 15  0px;
+    background-color: rgba(255, 223, 223, 0.377);
+    color: rgb(204, 0, 0);
+    font-size: 15px;
+    background-image: linear-gradient( rgba(34, 90, 34, 0.452), rgb(255, 255, 255));
+    
+
+}
+
+.parteUno {
+    margin-top: 20px;
+    height: 100%;
+    background-color: rgba(255, 223, 223, 0.377);
+    color: rgb(204, 0, 0);
+    font-size: 15px;
+    background-image: linear-gradient(to top, rgba(34, 90, 34, 0.452), rgb(255, 255, 255));   
+}
+
+
+.parteTres{
+
+    height: 100%;
+    background-color: rgba(213, 247, 159, 0.425);
+    color: rgb(0, 59, 0);
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(164, 196, 164, 0.288));
+    list-style: none;
+   
+    
+}
+
+#productos{
+
+    background-color: beige;
+    color: rgb(209, 101, 0);
+
+}
+
+#quienesSomos{
+    height: 600px;
+    max-width: 100%;
+    margin: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: rgba(134, 134, 134, 0.39);
+    color: rgb(0, 0, 0);
+    font-family: 'Antonio', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+ 
+   
+
+    
+}
+
+#iniciarSesion form{
+
+    height: 300px;
+    background-color: rgba(235, 235, 235, 0.568);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    
+    
+    
+}
+
+
+ul li{
+
+    color: rgb(53, 44, 107);
+    list-style: none;
+    height: 1;
+}
+
+.aLaDerecha {
+
+    text-align: right;
+}
+
+.alMedio{
+ 
+    text-align: center;
+
+}
+
+.none{
+font-family: "oswald", sans-serif;
+    list-style: none;
+    text-decoration: red ;
+} 
+
+h2{
+
+    text-align: center;
+}
+
+.fondoQuienesSomos{
+
+    height: auto; 
+    max-width: 80%;
+    margin-left: 125px;
+    background-image: url(../../img/QuienesSomos23.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.italicaCopyright{
+
+
+    font-style: italic;
+}
+
+.negrita{
+
+    font-weight: bold;
+}
+
+
+#logoPadding {
+    margin-left: 50px;
+    padding: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+
+#borde {
+
+    border: solid 5px rgb(53, 136, 71);
+    padding: 5px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.filtros {
+    width: 150px;
+    height: 350px;
+    border-right: solid rgb(32, 126, 44);
+    padding: 5px;
+    margin-left: 15px;
+    background-color: rgba(197, 248, 210, 0.336);
+}   
+
+.inLine {
+
+    display: inline;
+  
+    margin-left: 1075px;
+    padding: 20px;
+}
+
+.bloqueUno{
+    padding: 20px;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: solid 2px;
+    background-color: white;
+    color: green;
+}
+
+
+.menu{
+   
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgba(48, 3, 3, 0);
+    color: rgb(187, 9, 9);
+    
+
+
+}
+
+.menu li a {
+    background-color: rgba(60, 85, 67, 0.295);
+    color: 353535;
+    display: block;
+    padding: 15px 20px;
+    font-family: open sans-serif;
+    text-decoration: none;
+
+}
+
+.menu li:hover{
+
+    background-color: rgba(0, 71, 41, 0.274);
+}
+
+.menu > li{
+position: relative;
+    float: none;
+    display: inline-block;
+}
+
+.submenu{
+    float: left;
+    position: absolute;
+    width: 120%;
+    background-color: rgba(0, 0, 0, 0.767);
+    color: rgb(187, 9, 9);
+    display: none;
+    
+}
+
+.submenu li a{
+
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    font-family: open sans-serif;
+    
+    
+}
+
+.menu li:hover .submenu{
+   
+    background-color:rgba(0, 71, 41, 0.26);
+    display: block;
+    color: black;
+
+
+}
+
+
+    
+   
+
+
+.producto{ 
+    margin-top: 00px;
+    margin-left: 00px;
+    padding: 35px;
+    display: inline-block;
+   font-size: 20px
+   
+    
+  
+}
+
+
+.contenedorFlex{
+margin-left: 20px;
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: space-around;
+
+
+}
+
+
+#videoFlex{     
+
+    margin-top: 35;
+    display: flex;
+    margin-right: 20px;
+    justify-content:center;
+    align-content: center;
+
+
+}
+
+#fotoTres{
+    display: flex;
+    margin-bottom: 30px;
+    margin-right: 600px;
+    justify-content: flex-start ;
+    align-content: flex-start;
+}
+
+.contactosFooter{
+margin-top: 30px;
+margin-right: 20px;
+    display: flex;
+   flex-flow: column nowrap;
+   align-content: space-around;
+   align-items: flex-end;
+   
+
+}
+
+#cajaGrids{
+    margin: 15px;
+    padding: 15px;
+    display: grid;
+    grid-template-areas: "tipos fotos masFotos"
+    "tipos fotos masFotos";
+    grid-template-columns: 30% 1fr 1fr;
+    grid-column-gap:20px ;
+    grid-row-gap: 20px;
+    justify-items: start;
+    justify-content: space-around;
+    align-content: space-around;
+   
+   
+
+}
+
+#cuerpo{
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-area: fotos;
+   
+    
+   
+
+}
+
+#tipo{
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 10px;
+    display: grid;
+    grid-area: tipos;
+
+}
+
+#cuerpoDos{ 
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-area: masFotos;
+   
+
+
+}
+
+
+#cuerpo img:hover{
+
+    transform: scale(1.2);
+    border: solid 2px;
+    color: black;
+   
+
+}
+
+#cuerpoDos img:hover{
+
+    transform: scale(1.2);
+    border: solid 2px;
+    color: black;
+
+
+}
+
+#iniciarSesion{
+    background-image: url(../../img/fondoQuienesSomos.jpeg);
+    height: auto;
+    max-width: 100%;
+    display: flex;
+justify-content: center;
+
+
+    
+}
+
+#borde{
+    width: 350px;
+    height: auto;
+    background-color: rgba(145, 145, 145, 0.507);
+    font-size: 30px;
+    margin: 50px;
+}
+
+#borde h3{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+#cuerpo p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#cuerpoDos p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tarjetaProducto{
+
+    display: grid;
+    justify-content: flex-end;
+    align-content: flex-end;
+     
+    }
+    
+    #galeria img{
+    padding: 10px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        height: 250px;
+        display: grid;
+        justify-content: space-around;
+    }
+    
+    
+    
+    div h1{
+    
+        
+        margin-right: 30%;
+        margin-left: 38%;
+        margin-bottom: 25px;
+        background-color: rgba(187, 117, 117, 0.212);
+    }
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
